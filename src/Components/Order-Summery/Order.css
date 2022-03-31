@@ -1,0 +1,9 @@
+.order-summery{
+    position: sticky;
+    top: 0;
+    padding: 20px;
+}
+
+.order-summery h1 {
+    text-align: center;
+}
