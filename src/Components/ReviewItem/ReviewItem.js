@@ -18,7 +18,7 @@ const ReviewItem = ({ product, handleRemoveProduct }) => {
                     <p>Shipping charge : ${shipping}</p>
                 </div>
                 <div className="delete-button-container">
-                    <button><FontAwesomeIcon icon={faTrash}></FontAwesomeIcon></button>
+                    <button onClick={() => handleRemoveProduct(product)}><FontAwesomeIcon icon={faTrash}></FontAwesomeIcon></button>
                 </div>
             </div>
         </div>

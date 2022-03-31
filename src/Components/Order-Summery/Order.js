@@ -25,6 +25,7 @@ const Order = (props) => {
             <p>Total Shipping : $ {shipping}</p>
             <p>Tax : $ {tax}</p>
             <h3>Grand Total : $ {grandTotal}</h3>
+            {props.children}
         </div>
     );
 };
