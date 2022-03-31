@@ -1,0 +1,34 @@
+.review-item-container {
+    width: 570px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.review-product-details {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review-item-img img {
+    width: 90px;
+    margin-right: 10px;
+}
+
+.review-item-details p,
+h3 {
+    margin: 0;
+}
+
+.delete-button-container button {
+    border: 0;
+    background-color: white;
+    font-size: 25px;
+    cursor: pointer;
+    color: red;
+}
